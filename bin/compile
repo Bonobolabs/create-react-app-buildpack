@@ -27,7 +27,7 @@ BP_DIR=`cd $(dirname $0); cd ..; pwd`
 export NEW_BUILD_SCRIPT_BEHAVIOR=true
 
 echo
-echo "=====> Using create-react-app-buildpack with Nginx for the Heroku-22 stack"
+echo "=====> Using Bonobo's create-react-app-buildpack"
 echo
 
 # Use architecture of multi-buildpack to compose behavior.
