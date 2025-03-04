@@ -67,3 +67,7 @@ else
   echo "create-react-app `.buildpacks` not defined. Exiting."
   exit 1
 fi
+
+if [ ! -f "$BUILD_DIR/Procfile" ]; then
+  echo "web: bin/start-nginx" > "$BUILD_DIR/Procfile"
+fi
