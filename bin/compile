@@ -69,5 +69,5 @@ else
 fi
 
 if [ ! -f "$BUILD_DIR/Procfile" ]; then
-  echo "web: bin/start-nginx" > "$BUILD_DIR/Procfile"
+  echo "web: bin/start-nginx-static" > "$BUILD_DIR/Procfile"
 fi
